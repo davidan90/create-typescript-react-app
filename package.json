@@ -1,0 +1,29 @@
+{
+  "name": "create-typescript-react-app",
+  "version": "1.0.0",
+  "description": "creates a start structure of a react project with typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidan90/create-typescript-react-app.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "javascript",
+    "jsx",
+    "webpack"
+  ],
+  "author": "davidan90",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidan90/create-typescript-react-app/issues"
+  },
+  "homepage": "https://github.com/davidan90/create-typescript-react-app#readme",
+  "bin": {
+    "create-typescript-react-app": "./bin/dan.js"
+  }
+}
