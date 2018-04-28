@@ -7,8 +7,8 @@ module.exports = {
     entry: './src/index.tsx',
 
     output: {
-        filename: 'ts-react-app-bundle.js',
-        path: path.join(__dirname, '/dist')
+        path: path.resolve(__dirname, 'dist'),
+        filename: 'bundle.js',
     },
 
     devtool: 'source-map',
@@ -32,19 +32,6 @@ module.exports = {
             {
                 test: /\.tsx?$/,
                 loader: 'awesome-typescript-loader',
-                exclude: /node_modules/
-            },
-
-            {
-                test: /\.ts?$/,
-                loader: 'awesome-typescript-loader',
-                exclude: /node_modules/
-            },
-
-            {
-                enforce: 'pre',
-                test: /\.js$/,
-                loader: 'source-map-loader',
                 exclude: /node_modules/
             },
 
@@ -78,10 +65,4 @@ module.exports = {
             template: './src/index.html'
         })
     ],
-
-    externals: {
-        'react': 'React',
-        'react-dom': 'ReactDOM'
-    },
-    
 };

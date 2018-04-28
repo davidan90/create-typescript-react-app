@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
-import { HelloWorld } from './components/hello-world/hello-world';
+import { HelloWorld } from './components';
 
 ReactDOM.render(
     <HelloWorld greeting="Hello"/>,
