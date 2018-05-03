@@ -1,3 +1,3 @@
-import HelloWorld from "./hello-world/index";
+import HelloWorld from './hello-world/index';
 
 export { HelloWorld };
