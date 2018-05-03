@@ -4,6 +4,6 @@ import * as ReactDOM from 'react-dom';
 import { HelloWorld } from './components';
 
 ReactDOM.render(
-    <HelloWorld greeting="Hello"/>,
+    <HelloWorld greeting='Hello'/>,
     document.getElementById('ts-react-app')
 );

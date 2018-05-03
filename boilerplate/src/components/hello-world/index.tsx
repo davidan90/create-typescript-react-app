@@ -1,21 +1,21 @@
 import * as React from 'react';
 import './index.scss';
 
-interface HelloWorldProps { 
+interface HelloWorldProps {
     greeting: string;
-    destination?: string
+    destination?: string;
 }
 
 export default class HelloWorld extends React.Component<HelloWorldProps, {}> {
     public static defaultProps: Partial<HelloWorldProps> = {
-        destination: "World"
+        destination: 'World'
     };
 
-    constructor (props: HelloWorldProps){
+    constructor(props: HelloWorldProps) {
         super(props);
     }
-    
+
     render() {
-        return <h1 className="title"> {this.props.greeting} {this.props.destination}!</h1>;
+        return <h1 className='title'> {this.props.greeting} {this.props.destination}!</h1>;
     }
 }
