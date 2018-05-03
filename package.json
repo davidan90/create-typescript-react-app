@@ -1,6 +1,6 @@
 {
   "name": "create-typescript-react-app",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "creates a start structure of a react project with typescript",
   "main": "index.js",
   "scripts": {
