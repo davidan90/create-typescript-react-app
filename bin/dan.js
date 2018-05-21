@@ -31,6 +31,7 @@ if (isProjectCreated) {
             }
         );
         console.log('DONE!');
+        return;
     },
     2000);
 }
