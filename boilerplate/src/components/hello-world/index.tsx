@@ -1,7 +1,7 @@
 import * as React from 'react';
 import './index.scss';
 
-interface HelloWorldProps {
+export interface HelloWorldProps {
     greeting: string;
     destination?: string;
 }
