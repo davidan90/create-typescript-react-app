@@ -1,9 +1,11 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-
-import { HelloWorld } from './components';
+import { BrowserRouter } from 'react-router-dom';
+import { App } from './app';
 
 ReactDOM.render(
-    <HelloWorld greeting='Hello'/>,
-    document.getElementById('ts-react-app')
+    <BrowserRouter>
+        <App/>
+    </BrowserRouter>
+    , document.getElementById('ts-react-app')
 );
