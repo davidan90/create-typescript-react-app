@@ -52,7 +52,7 @@ module.exports = {
                     'sass-loader'
                 ],
                 exclude: /node_modules/
-            }
+            },
 
             {
                 test: /\.(eot|svg|ttf|woff|woff2)$/,
