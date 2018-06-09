@@ -11,12 +11,14 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js',
+        publicPath: '/'
     },
 
     devtool: 'source-map',
 
     devServer: {
-        contentBase: './dist'
+        contentBase: './dist',
+        historyApiFallback: true
     },
 
     resolve: {
@@ -54,6 +56,11 @@ module.exports = {
                     'sass-loader'
                 ],
                 exclude: /node_modules/
+            },
+
+            {
+                test: /\.json$/,
+                loader: 'json-loader'
             },
 
             {
